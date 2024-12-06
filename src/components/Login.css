@@ -1,0 +1,111 @@
+/* Login.css */
+
+/* Ensure the background image covers the full page */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: 100%; /* Ensure full height */
+}
+
+/* Body background */
+body {
+    background-image: url('../assets/images/picture1.jpg'); /* Correct path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+}
+
+/* The container will cover the whole page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+    width: 100%;    /* Full width */
+    backdrop-filter: blur(5px); /* Optional: Apply blur to the background */
+}
+
+
+
+
+
+/* Styling for login card */
+.login-card {
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent background */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Styling for headings, forms, and buttons */
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #2c3e50;
+}
+
+hr {
+    border: 1px solid #2c3e50;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #2c3e50;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1e6091;
+    border-color: #1e6091;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #2980b9;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #1e6091;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+

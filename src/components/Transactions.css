@@ -1,0 +1,11 @@
+.welcome-title {
+    color: white; /* White text color */
+    font-family: 'Helvetica Neue', sans-serif; /* Elegant and modern font */
+    font-size: 36px; /* Larger font size */
+    font-weight: 600; /* Semi-bold text */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Padding for spacing */
+    background-color: #4CAF50; /* Green background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}

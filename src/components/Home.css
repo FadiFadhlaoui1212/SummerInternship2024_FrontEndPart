@@ -1,0 +1,249 @@
+/* Home.css */
+
+/* General Styles */
+body {
+    margin: 0;  /* Remove margin */
+    padding: 0; /* Remove padding */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Soft gradient background */
+    color: #333; /* Text color for contrast */
+    background-image: url('https://th.bing.com/th/id/OIP.3O_EF3ZWnZYfZxq487u4HQHaEK?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Ensure full height of the page is used */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Page Container */
+div {
+    max-width: 1200px;
+    margin: 0;  /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #1e3a8a; /* Dark blue */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #334155; /* Slightly lighter blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;                  /* Use flexbox to align buttons horizontally */
+    justify-content: space-between; /* Distribute buttons with space between */
+    align-items: center;            /* Center buttons vertically */
+    width: 100%;                    /* Full width of the page */
+    padding: 10px 0;  /* Adjusted padding to reduce space around navbar */
+    margin: 0; /* Remove margin */
+}
+
+nav li {
+    list-style: none;
+}
+
+/* Navbar button styles */
+nav button {
+    background-color: #4f46e5;      /* Indigo background */
+    color: white;                   /* White text */
+    border: none;                   /* Remove border */
+    padding: 10px 230px;              /* Smaller padding to reduce button size */
+    font-size: 1rem;                 /* Font size for text */
+    border-radius: 1px;             /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+    margin-right: 60px;              /* Space between buttons */
+}
+
+/* Hover effect for buttons */
+nav button:hover {
+    background-color: #3b38d3;      /* Darker indigo on hover */
+}
+
+/* Active state for button (when clicked) */
+nav button:active {
+    background-color: #3633b4;      /* Even darker indigo when clicked */
+}
+
+/* Remove margin from the last button */
+nav button:last-child {
+    margin-right: 0;
+}
+
+/* Currency Dropdown */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Create Account Button */
+button {
+    background-color: #10b981; /* Green */
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #059669; /* Darker green */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    padding-left: 0; /* Ensure no padding on the left side */
+}
+
+thead {
+    background-color: #3b82f6; /* Blue header */
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9fafb; /* Light gray for alternating rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e5e7eb; /* Slightly darker gray */
+}
+
+td {
+    padding: 10px 55px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Input Fields */
+input[type="number"] {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons inside the table */
+td button {
+    background-color: #2563eb; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+td button:hover {
+    background-color: #1d4ed8; /* Darker blue */
+}
+
+/* Alerts and Messages */
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #64748b; /* Neutral text color */
+}
+
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Section Styles */
+  .main {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #ffffff;
+  }
+  
+  .main h1 {
+    font-size: 3rem;
+    color: #343a40;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #343a40;
+    color: #fff;
+  }
+
+  .welcome-container {
+    background-color: white; /* Fond blanc */
+    border: 2px solid #ccc; /* Bordure légère gris clair */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce pour effet 3D */
+    width: fit-content;
+    margin: 20px auto; /* Centrer l'élément */
+    text-align: center; /* Centrer le texte à l'intérieur */
+}
+
+.welcome-container h1 {
+    font-size: 24px; /* Taille de la police pour le titre */
+    color: #333; /* Couleur du texte */
+    margin-bottom: 10px;
+}
